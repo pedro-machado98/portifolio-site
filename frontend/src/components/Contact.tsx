@@ -9,13 +9,25 @@ export const Contact: React.FC = () => {
     e.preventDefault();
     setStatus('loading');
     
-    // TODO: Connect to AWS API Gateway Endpoint
-    // const formData = new FormData(e.currentTarget);
-    // const data = Object.fromEntries(formData);
+    const formData = new FormData(e.currentTarget);
+    const data = Object.fromEntries(formData);
     
-    setTimeout(() => {
-      setStatus('success');
-    }, 1500);
+    try {
+      const response = await fetch('https://2uhx5qgsk7.execute-api.us-east-1.amazonaws.com/prod/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+      
+      if (response.ok) {
+        setStatus('success');
+      } else {
+        setStatus('error');
+      }
+    } catch (error) {
+      console.error(error);
+      setStatus('error');
+    }
   };
 
   return (
