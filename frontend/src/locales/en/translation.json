@@ -1,0 +1,75 @@
+{
+  "hero": {
+    "greeting": "Hi, I'm",
+    "role": "Full-Stack Software Engineer passionate about event-driven architectures and scalability.",
+    "summary": "Results-driven Software Engineer with 5+ years of experience architecting highly scalable backend microservices and modernizing Cloud infrastructures. I specialize in integrating AI-driven solutions and event-driven data pipelines to solve complex business challenges, optimizing system performance and driving operational efficiency.",
+    "stack": "Core Stack",
+    "contact": "Get in Touch"
+  },
+  "nav": {
+    "experience": "Experience",
+    "projects": "Projects",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "experience": {
+    "title": "Experience",
+    "jobs": [
+      {
+        "company": "Open Labs SA",
+        "role": "Software Engineer",
+        "period": "Feb 2024 - Present",
+        "achievements": [
+          "Engineered resilient backend microservices and event-driven data pipelines (StreamSets, NiFi), successfully processing 130M+ daily events for real-time Salesforce delivery, achieving high availability.",
+          "Spearheaded Cloud DevOps modernization by migrating CI/CD pipelines from Jenkins to GitHub Actions, implementing rootless containers (Podman), and slashing build times by 58% (from 2h to 50m).",
+          "Designed and deployed AI-powered intent mapping systems for WhatsApp and WebChatbots, significantly decreasing user churn and boosting conversion rates across omnichannel customer journeys."
+        ]
+      },
+      {
+        "company": "Abra Cadabra Oficial",
+        "role": "Software Engineer (Previously Intern)",
+        "period": "Sep 2022 - Feb 2025",
+        "achievements": [
+          "Architected a seamless carrier API integration via Node.js backend microservices, streamlining logistics operations to accelerate processing time by 3 hours and reduce shipping errors by 20%.",
+          "Developed an event-driven inventory tracking system leveraging Next.js, Node.js, and RabbitMQ, effectively eliminating operational bottlenecks in warehouse goods separation.",
+          "Optimized complex SQL queries and modernized local development environments by containerizing the 'AbraHub' platform with Docker, drastically reducing developer setup time."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "name": "What's Your Finance",
+        "description": "AI-powered WhatsApp chatbot engineered for automated personal financial management.",
+        "tech": "NestJS, Prisma, PostgreSQL, Docker, LLMs.",
+        "highlight": "Architected a hybrid backend leveraging Cloud AI APIs and local LLMs, optimizing natural language processing accuracy while minimizing operational costs.",
+        "repo": "https://github.com/pedro-machado98/whats-your-finance"
+      },
+      {
+        "name": "FaceHumor Detector",
+        "description": "Cloud-native computer vision REST API utilizing Google Cloud Vision to detect facial emotions.",
+        "tech": "Java, Spring Boot, PostgreSQL, RESTful API.",
+        "highlight": "Designed scalable backend microservices incorporating advanced OOP design patterns and a robust DTO-based architecture.",
+        "repo": "https://github.com/pedro-machado98/FaceHumor-Detector"
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "degree": "Systems Analysis and Development",
+    "institution": "FAETERJ-Rio",
+    "period": "Feb 2022 - Jan 2025"
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "successTitle": "Message sent successfully",
+    "successSubtitle": "I'll get back to you as soon as possible.",
+    "sendAnother": "Send another message"
+  }
+}

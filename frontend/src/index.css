@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+:root {
+  --bg-color: #050505;
+  --text-primary: #ededed;
+  --text-secondary: #a1a1a1;
+  --accent: #38bdf8;
+  --accent-muted: rgba(56, 189, 248, 0.2);
+  --border-color: rgba(255, 255, 255, 0.05);
+  --surface: #0a0a0a;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: default;
+}
+
+/* Force default cursor and prevent text selection on all text elements so it feels like a native app */
+h1, h2, h3, h4, h5, h6, p, span, div {
+  cursor: default !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+}
+
+input, textarea {
+  cursor: text;
+  user-select: auto;
+  -webkit-user-select: auto;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+::selection {
+  background-color: var(--accent);
+  color: #000;
+}
+
+/* Typography Scale & Styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Geist', 'Inter', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* Monospace Accents */
+.mono {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 0.9em;
+}
+
+/* Custom layout utilities inspired by the frontend-design skill */
+.brutal-border {
+  border: 1px solid var(--border-color);
+}
+
+.brutal-card {
+  background-color: var(--surface);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.brutal-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 40px var(--accent-muted);
+}
+
+/* Custom Gradient Text */
+.text-gradient {
+  background: linear-gradient(135deg, #ffffff 0%, #a1a1a1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

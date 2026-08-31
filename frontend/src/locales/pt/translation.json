@@ -1,0 +1,75 @@
+{
+  "hero": {
+    "greeting": "Olá, eu sou",
+    "role": "Engenheiro de Software Full-Stack apaixonado por arquiteturas orientadas a eventos e escalabilidade.",
+    "summary": "Engenheiro de Software focado em resultados, com mais de 5 anos de experiência arquitetando microsserviços backend altamente escaláveis e modernizando infraestruturas Cloud. Especialista em integrar soluções de IA e pipelines de dados orientados a eventos para resolver desafios de negócios, otimizando o desempenho de sistemas e impulsionando a eficiência.",
+    "stack": "Stack Principal",
+    "contact": "Fale Comigo"
+  },
+  "nav": {
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "education": "Educação",
+    "contact": "Contato"
+  },
+  "experience": {
+    "title": "Experiência",
+    "jobs": [
+      {
+        "company": "Open Labs SA",
+        "role": "Software Engineer",
+        "period": "Fev 2024 - Presente",
+        "achievements": [
+          "Desenvolvi microsserviços backend resilientes e pipelines de dados orientados a eventos (StreamSets, NiFi), processando mais de 130 milhões de eventos diários para entrega em tempo real ao Salesforce, garantindo alta disponibilidade.",
+          "Liderei a modernização Cloud DevOps migrando pipelines CI/CD do Jenkins para GitHub Actions, implementando containers rootless (Podman) e reduzindo o tempo de build em 58% (de 2h para 50m).",
+          "Projetei e integrei sistemas de mapeamento de intenção com IA para WhatsApp e WebChatbots, reduzindo significativamente o churn de usuários e impulsionando taxas de conversão em jornadas omnichannel."
+        ]
+      },
+      {
+        "company": "Abra Cadabra Oficial",
+        "role": "Software Engineer (Anteriormente Intern)",
+        "period": "Set 2022 - Fev 2025",
+        "achievements": [
+          "Arquitetei integração de API de transportadora via microsserviços backend em Node.js, otimizando a logística para acelerar o tempo de processamento em 3 horas e reduzir erros de envio em 20%.",
+          "Desenvolvi um sistema de rastreamento de estoque orientado a eventos utilizando Next.js, Node.js e RabbitMQ, eliminando gargalos operacionais na separação de mercadorias.",
+          "Otimizei consultas SQL complexas e modernizei ambientes de desenvolvimento conteinerizando a plataforma 'AbraHub' com Docker, reduzindo drasticamente o tempo de setup da equipe."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projetos",
+    "items": [
+      {
+        "name": "What's Your Finance",
+        "description": "Chatbot de WhatsApp impulsionado por IA e projetado para gestão financeira pessoal automatizada.",
+        "tech": "NestJS, Prisma, PostgreSQL, Docker, LLMs.",
+        "highlight": "Arquitetei um backend híbrido utilizando APIs de IA em Cloud e LLMs locais, otimizando a precisão do processamento de linguagem natural e reduzindo custos operacionais.",
+        "repo": "https://github.com/pedro-machado98/whats-your-finance"
+      },
+      {
+        "name": "FaceHumor Detector",
+        "description": "API REST nativa em Cloud para visão computacional, utilizando Google Cloud Vision para detectar emoções faciais.",
+        "tech": "Java, Spring Boot, PostgreSQL, RESTful API.",
+        "highlight": "Projetei microsserviços backend escaláveis incorporando padrões avançados de OOP e uma arquitetura robusta baseada em DTOs.",
+        "repo": "https://github.com/pedro-machado98/FaceHumor-Detector"
+      }
+    ]
+  },
+  "education": {
+    "title": "Educação",
+    "degree": "Análise e Desenvolvimento de Sistemas",
+    "institution": "FAETERJ-Rio",
+    "period": "Fev 2022 - Jan 2025"
+  },
+  "contact": {
+    "title": "Contato",
+    "name": "Nome",
+    "email": "E-mail",
+    "message": "Mensagem",
+    "send": "Enviar Mensagem",
+    "successTitle": "Mensagem enviada com sucesso",
+    "successSubtitle": "Entrarei em contato com você o mais breve possível.",
+    "sendAnother": "Enviar outra mensagem"
+  }
+}
